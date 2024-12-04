@@ -1,13 +1,15 @@
-import { LiveScore, UpdateScore } from "./components"
-import RippleButton from "./components/UtilComp/RippleButton/RippleButton"
+import {Score , Footer} from './components'
 
 function App() {
 
   return (
     <>
       {/* <LiveScore /> */}
-      <UpdateScore />
-      {/* <RippleButton /> */}
+      {/* <UpdateScore />
+      <RippleButton /> */}
+
+      {/* <Score /> */}
+      <Footer />
     </>
   )
 }
