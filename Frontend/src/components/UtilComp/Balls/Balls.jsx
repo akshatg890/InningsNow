@@ -28,7 +28,7 @@ function Balls({ numberOfBalls, content = [], onBallClick, animateActive = false
                     className={`h-16 w-16 rounded-full shadow-lg transition-transform transform cursor-pointer 
                         ${animateActive && index === currentBall ? 'animate-bounce' : ''}`}
                     style={{
-                        background: ballColors[index],
+                        
                         background: `radial-gradient(circle, ${ballColors[index]} 0%, rgba(200, 255, 200, 0.5) 70%)`,
                         border: '2px solid rgba(255, 255, 255, 0.8)',
                     }}

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
     return (
-        <header className='w-full h-max box-border top-0 left-0 right-0 py-5 shadow-md shadow-green-800 bg-green-500'>
+        <header 
+            className='w-full h-max hidden sm:flex box-border top-0 left-0 right-0 py-5 shadow-md shadow-green-800 bg-green-500 z-10'
+        >
             <nav 
                 className='h-full w-full flex text-white font-semibold items-center justify-between px-3 border-2 border-black'
             >

@@ -1,6 +1,7 @@
 import Header from "./Header/Header";
-// import LiveScore from "./LiveScore/LiveScore";
-import LiveScore from "./Score/LiveScore/LiveScore";
-import UpdateScore from "./Score/UpdateScore/UpdateScore";
+import Score from "./Score/Score";
+import MatchDetailsForm from "./MatchDetails/MatchDetailsForm"
+import SelectTeams from './SelectTeams/SelectTeams'
+import Footer from "./Footer/Footer";
 
-export {Header , LiveScore , UpdateScore};
+export {Header , Score , MatchDetailsForm , SelectTeams , Footer };
