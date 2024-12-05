@@ -10,7 +10,7 @@ const ballColors = [
 ];
 
 function Balls({ numberOfBalls, content = [], onBallClick, animateActive = false }) {
-    const [currentBall, setCurrentBall] = useState(-1);
+    const [currentBall, setCurrentBall] = useState(0);
 
     const handleBallClick = (index) => {
         if (onBallClick) {
@@ -20,7 +20,7 @@ function Balls({ numberOfBalls, content = [], onBallClick, animateActive = false
     };
 
     return (
-        <main className="h-full w-full grid grid-cols-3 place-items-center gap-4 bg-green-200 p-5 rounded-lg">
+        <main className="h-full w-full grid grid-cols-3 place-items-center gap-4 p-5 rounded-lg">
             {Array.from({ length: numberOfBalls }).map((_, index) => (
                 <div
                     key={index}

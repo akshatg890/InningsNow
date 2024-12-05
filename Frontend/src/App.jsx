@@ -9,7 +9,8 @@ function App() {
       <RippleButton /> */}
 
       {/* <Score /> */}
-      <Footer />
+      <Score />
+      {/* <Footer /> */}
     </>
   )
 }
