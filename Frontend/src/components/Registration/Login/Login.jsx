@@ -55,12 +55,12 @@ function Login({handleClick}) {
                         Login
                     </button>
                 </form>
-                <p className="text-sm text-center text-gray-600 mt-4">
+                <div className="text-sm text-center text-gray-600 mt-4">
                     Don't have an account?{" "}
                     <div className="text-green-600 font-bold hover:underline cursor-pointer text-sm" onClick={handleClick}>
                         Sign Up
                     </div>
-                </p>
+                </div>
             </div>
         </div>
     );
