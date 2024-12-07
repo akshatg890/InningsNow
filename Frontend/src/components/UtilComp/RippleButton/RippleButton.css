@@ -1,4 +1,4 @@
-button::before {
+.ripplebutton::before {
     content: "";
     position: absolute;
     top: var(--ypos, 0);
@@ -11,7 +11,7 @@ button::before {
     transition: height 0.4s ease, width 0.4s ease;
   }
   
-  button:hover::before {
+  .ripplebutton:hover::before {
     height: 400px;
     width: 100%; /* Ensure the ripple effect covers the full width of the button */
   }
